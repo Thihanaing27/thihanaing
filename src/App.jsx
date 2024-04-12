@@ -12,16 +12,18 @@ function App() {
     <>
       <NavBar />
       <div
-        className="absolute w-full h-screen top-0 -left-full transition-all duration-500 z-10"
+        className="absolute w-full h-screen top-0 -left-full transition-all duration-500 z-10 md:hidden"
         id="OverMenu"
       >
         <OverMenu />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="thihanaing/" element={<Home />}>
+          <Route index element={<Home />} />
+        </Route>
+        <Route path="thihanaing/about" element={<About />} />
+        <Route path="thihanaing/services" element={<Services />} />
+        <Route path="thihanaing/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>

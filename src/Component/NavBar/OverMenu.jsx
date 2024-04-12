@@ -5,16 +5,16 @@ export const OverMenu = () => {
     <div className="min-w-full min-h-screen flex justify-center items-center opacity-90 HumbergerMenu  bg-gradient-to-l from-neutral-500 to-sky-800">
       <ul className="flex flex-col gap-4 text-center">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/thihanaing/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/thihanaing/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/thihanaing/services">Services</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/thihanaing/contact">Contact</NavLink>
         </li>
       </ul>
     </div>

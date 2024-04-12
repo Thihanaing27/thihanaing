@@ -5,16 +5,16 @@ export const TabMenu = () => {
     <div className="TabMenu">
       <ul className="flex gap-4 text-center">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/thihanaing/" end>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/thihanaing/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/thihanaing/services">Services</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/thihanaing/contact">Contact</NavLink>
         </li>
       </ul>
     </div>
