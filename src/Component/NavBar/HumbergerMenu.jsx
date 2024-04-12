@@ -7,7 +7,6 @@ export const HumbergerMenu = () => {
     const bar3 = document.getElementById("bar3");
     const MenuContainer = document.getElementById("MenuContainer");
     const OverMenu = document.getElementById("OverMenu");
-    console.log(OverMenu);
     if (MenuContainer.classList.contains("isOpen")) {
       bar2.classList.remove("opacity-0");
       bar1.classList.remove("rotatePlus45Deg");
