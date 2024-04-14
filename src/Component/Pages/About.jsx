@@ -1,3 +1,9 @@
+import { AboutContent } from "../AboutContent/AboutContent";
+
 export const About = () => {
-  return <h1 className="w-full h-screen">About</h1>;
+  return (
+    <div className="w-full flex justify-center items-center mt-7">
+      <AboutContent />
+    </div>
+  );
 };
