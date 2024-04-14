@@ -12,7 +12,7 @@ function App() {
     <>
       <NavBar />
       <div
-        className="absolute w-full h-screen top-0 -left-full transition-all duration-500 z-10 md:hidden"
+        className="fixed w-full h-[100vh] top-0 -left-full transition-all duration-500 z-10 md:hidden"
         id="OverMenu"
       >
         <OverMenu />
