@@ -7,6 +7,8 @@ import { Services } from "./Component/Pages/Services";
 import { Contact } from "./Component/Pages/Contact";
 import { OverMenu } from "./Component/NavBar/OverMenu";
 import Footer from "./Component/Footer/Footer";
+import { ViberCode } from "./Component/Pages/ViberCode";
+import { Mail } from "./Component/Contact/Mail";
 function App() {
   return (
     <>
@@ -23,7 +25,11 @@ function App() {
         </Route>
         <Route path="thihanaing/about" element={<About />} />
         <Route path="thihanaing/services" element={<Services />} />
-        <Route path="thihanaing/contact" element={<Contact />} />
+        <Route path="thihanaing/contact" element={<Contact />} >
+          <Route path="mail" element={<Mail />} />
+          <Route path="viberCode" element={<ViberCode />} />
+        </Route>
+        <Route path="thihanaing/ViberCode" element={<ViberCode />} />
       </Routes>
       <Footer />
     </>

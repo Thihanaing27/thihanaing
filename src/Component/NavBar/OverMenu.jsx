@@ -15,13 +15,6 @@ export const OverMenu = () => {
       MenuContainer.classList.remove("isOpen");
       OverMenu.classList.add("-left-full");
       OverMenu.classList.remove("left-0");
-    } else {
-      bar2.classList.add("opacity-0");
-      bar1.classList.add("rotatePlus45Deg");
-      bar3.classList.add("rotateMinus45Deg");
-      MenuContainer.classList.add("isOpen");
-      OverMenu.classList.remove("-left-full");
-      OverMenu.classList.add("left-0");
     }
   }
   return (
